@@ -27,11 +27,13 @@ namespace Hello_world
 
                 Console.WriteLine($"Carpet Tiles: {area / 5}");
                 Console.WriteLine($"Paint: {perimeter / 5}");
+                Console.WriteLine($"Volume: {area * area * perimeter  }");
 
 
                 Console.Write("would you like to do another calculation? ");
                 userAnswer = Console.ReadLine();
 
+                //making room for exceptions 
             }
 
 
